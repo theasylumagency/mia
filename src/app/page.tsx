@@ -105,8 +105,8 @@ export default function Home() {
             <button
               onClick={() => setLang("ka")}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${lang === "ka"
-                  ? "bg-primary text-background shadow-sm"
-                  : "text-foreground hover:bg-card-border"
+                ? "bg-primary text-background shadow-sm"
+                : "text-foreground hover:bg-card-border"
                 }`}
             >
               ქარ
@@ -114,8 +114,8 @@ export default function Home() {
             <button
               onClick={() => setLang("en")}
               className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${lang === "en"
-                  ? "bg-primary text-background shadow-sm"
-                  : "text-foreground hover:bg-card-border"
+                ? "bg-primary text-background shadow-sm"
+                : "text-foreground hover:bg-card-border"
                 }`}
             >
               ENG
@@ -243,9 +243,8 @@ export default function Home() {
                 </div>
 
                 <div className="p-3 bg-white rounded-xl border border-card-border shadow-inner">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={qrUrl}
+                  <Image
+                    src="mia_theasylum_qr.svg"
                     alt="Bypassed App download link QR Code"
                     width={180}
                     height={180}
