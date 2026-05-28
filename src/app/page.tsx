@@ -139,12 +139,11 @@ export default function Home() {
               {t.agencySubtitle} <br />
               <span className="text-accent font-semibold">{t.appTitle}</span>
             </h2>
-
+            {/*
             <p className="text-base leading-relaxed text-foreground/80 font-normal">
               {t.appDescription}
             </p>
 
-            {/* List of features */}
             <ul className="space-y-3 pt-2">
               {t.features.map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-sm text-foreground/95 font-medium">
@@ -165,7 +164,7 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-
+*/}
             {/* Redirection Alert Banner */}
             <div className="border border-card-border bg-card-bg/40 p-5 rounded-xl space-y-2">
               <h3 className="text-sm font-bold text-accent uppercase tracking-wide">
